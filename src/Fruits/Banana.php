@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Exercise08\Fruits;
+namespace App\Fruits;
 
 class Banana extends Fruit implements PeelableInterface
 {
