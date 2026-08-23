@@ -9,7 +9,7 @@ use App\Fruits\Fruit;
 class Box implements BoxInterface
 {
     private static ?Box $instance = null;
-    
+
     /** @var array<Fruit> */
     protected array $fruits = [];
     protected int $maxCapacity;
